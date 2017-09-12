@@ -70,25 +70,45 @@ name =s.nextInt();
 
 	@Override
 	public void remove(int index) {
-if(Student[]==index)
+Scanner s3=new Scanner("System.in");
+for(i=0;i<=student;i++)
 {
-Student[]--;
-		// Add your implementation here
+if(student==index)
+{
+student--;}
+
+
+// Add your implementation here
 	}
 
 	/*@Override
 	public void remove(Student student) {
-
+Scanner s4=new Scanner("System.in");
+for(i=0;i<=student;i++)
+student--;
 		// Add your implementation here
 	}
 
 	@Override
 	public void removeFromIndex(int index) {
+Scanner s5=new Scanner("System.in");
+String name;
+name s5=nextLine();
+if(s5==index[i])
+{ System.out.println("remove from index");
+index[i]==index[i]-1;
 		// Add your implementation here
 	}
 
 	@Override
 	public void removeFromElement(Student student) {
+Scanner s6=new Scanner("System.in");
+String name;
+for(i=0;i<student;i++)
+{
+if(s6==index[i])
+System.out.println("index removed from elements");
+
 		// Add your implementation here
 	}
 
